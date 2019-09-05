@@ -108,6 +108,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\BAL\BusinessAccessLayyer.cs" />
     <Compile Include="Areas\Profile\ProfileAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -129,6 +130,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\IRepository\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Repository\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
